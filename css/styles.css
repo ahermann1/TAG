@@ -50,6 +50,11 @@ h1{
 text-align: center;
 }
 
+figcaption{
+  text-align: center;
+  color:red;
+  font-family: futura;
+}
 /************
 MOVIE TRAILER w/ MEDIA ELEMENT PLAYER
 ************/
