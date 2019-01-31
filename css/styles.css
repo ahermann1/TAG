@@ -2,7 +2,7 @@
   DIAGNOSTIC STYLING
 */
 body {
-  background: gray;
+  background:whitesmoke;
 }
 
 * {
@@ -43,7 +43,12 @@ aside {
 HEADER
 ************/
 /* Your Styles */
-
+h1{
+    color: red;
+    font-family: futura;
+    font-size: 72px;
+text-align: center;
+}
 
 /************
 MOVIE TRAILER w/ MEDIA ELEMENT PLAYER
