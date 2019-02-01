@@ -37,6 +37,20 @@ main {
 aside {
   grid-column: span 2;
 }
+a:link,
+a:visited {
+  color: dimgray;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: red;
+}
+
+ul > li {
+  list-style: square;
+}
 
 
 /************
