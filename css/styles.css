@@ -110,6 +110,13 @@ main section {
   justify-content: center;
 }
 
+figure {
+  background: whitesmoke;
+}
+
+figure:hover img { 
+opacity: 0.5;
+}
 /************
 FOOTER
 ************/
