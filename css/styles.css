@@ -39,19 +39,27 @@ aside {
 }
 a:link,
 a:visited {
-  color: dimgray;
+  color: red;
   text-decoration: none;
 }
 
 a:hover,
 a:active {
-  color: red;
+  color: dimgrey;
 }
+
 
 ul > li {
   list-style: square;
+  color: red;
+    font-family: futura;
 }
 
+p{
+font-size: 18px;
+  color: dimgrey;
+  font-family: futura;
+}
 
 /************
 HEADER
@@ -65,7 +73,7 @@ text-align: center;
 }
 
 h5{
-  color: lightgrey;
+  color: dimgrey;
   font-family: futura;
   font-size: 20px;
   text-align: center;
