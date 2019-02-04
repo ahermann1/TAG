@@ -2,7 +2,7 @@
   DIAGNOSTIC STYLING
 */
 body {
-  background: whitesmoke;
+  background: lightslategray;
 }
 
 
@@ -10,31 +10,81 @@ body {
 /************
 LAYOUT
 ************/
-body {
-  /* Center to Page   */
-  margin: 0 auto;
-  max-width: 56em;
-  padding: 1em 0;
+
+/* PRESENTATION 
+*CSS: https://cssreference.io
+*/
+
+/* PRESENTATION 
+*CSS: https://cssreference.io
+*/
+
+*{
+  box-sizing: border-box;
+  }
   
-  /* CSS Grid Layout   */
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto;
-  grid-gap: 1em;
-}
+  html, body{
+  font-family: 'futura', ariel;
+  }
+  
+  .top_header{
+  padding:1.5em 0;
+  }
+  .logo {
+    color:black;
+  float:left;
+  font-size:30px;
+  font-weight:700;
+    }
+  .wrapper{
+  width:1440px;
+  max-width: 90%;
+  margin:0 auto;
+  }
+  #main_nav{
+  float: right;
+  font-size: 20px;
+  padding-top:2em;
+  }
+  a{
+  color:#FF0000;
+  text-decoration: none;
+  margin-left: 1em;
+  }
+  #banner{
+  background: #D3D3D3;
+  background-repeat:no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 6.5em 0;
+  }
+  #banner_content_wrapper{
+  width: 900px;
+  max-width: 90%;
+  margin:0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  main section { 
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+  }
+  
+  
+  
+  
+  
+  
+  
 
-header,
-footer {
-  grid-column: 1 / span 5;
-}
 
-main {
-  grid-column: 1 / span 3;
-}
 
-aside {
-  grid-column: span 2;
-}
+
+
 a:link,
 a:visited {
   color: red;
@@ -53,11 +103,7 @@ ul > li {
     font-family: futura;
 }
 
-p{
-font-size: 18px;
-  color: dimgrey;
-  font-family: futura;
-}
+
 
 /************
 HEADER
@@ -102,11 +148,7 @@ video {
 /************
 ACTORS
 ************/
-main section { 
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+
 
 figure {
   background: whitesmoke
