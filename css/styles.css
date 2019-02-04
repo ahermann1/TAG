@@ -1,7 +1,7 @@
 /*
   DIAGNOSTIC STYLING
 */
-body {
+head {
   background: lightslategray;
   style: 100%;
 }
@@ -20,9 +20,7 @@ LAYOUT
 *CSS: https://cssreference.io
 */
 
-*{
-  box-sizing: border-box;
-  }
+
   
   html, body{
   font-family: 'futura', ariel;
