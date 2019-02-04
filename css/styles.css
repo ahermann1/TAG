@@ -2,12 +2,10 @@
   DIAGNOSTIC STYLING
 */
 body {
-  background:whitesmoke;
+  background: whitesmoke;
 }
 
-* {
-  outline: 1px dotted whitesmoke;
-}
+
 
 /************
 LAYOUT
@@ -111,11 +109,13 @@ main section {
 }
 
 figure {
-  background: whitesmoke;
+  background: whitesmoke
 }
-
+ 
 figure:hover img { 
 opacity: 0.5;
+-webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 /************
 FOOTER
